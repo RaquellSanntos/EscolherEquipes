@@ -12,7 +12,7 @@ public class SorteadorDeEquipes {
 
     public Equipe sortearEquipe() {
         Random random = new Random();
-        int indiceAleatorio = random.nextInt(equipes.size());
-        return equipes.get(indiceAleatorio);
+        int equipeAleatorio = random.nextInt(equipes.size());
+        return equipes.get(equipeAleatorio);
     }
 }
